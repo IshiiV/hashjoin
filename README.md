@@ -5,3 +5,5 @@ Para utilizar o programa, deve-se colocar no arquivo HashJoinHeader.java os nome
 As váriaveis CsvReaders cs1 e cs2 representam as tabelas pro HashJoin.
 Inteiro "desejado" representa o valor que quer encontrar na tabela, caso o valor for negativo o código considera o campo como vazio.
 Inteiro "localizacao" representa a posição da coluna no "cs2" do valor que queremos analisar.
+
+OBS: Tabelas utilizadas em csv e precisam ter cabeçalho informando seus campos.
