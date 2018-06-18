@@ -3,10 +3,10 @@ import java.util.HashMap;
 import java.util.Iterator;
 
 public class HashJoinHeader {
-	CsvReader cs1 = new CsvReader("regionH.csv");
-	CsvReader cs2 = new CsvReader("nationH.csv");
-	int desejado = -1;
-	int localizacao = 2;
+	CsvReader cs1 = new CsvReader("nationH.csv");
+	CsvReader cs2 = new CsvReader("supplierH.csv");
+	int desejado = -1;		//Key desejada para comparação
+	int localizacao = 3;	//Localização da key na tabela cs2
 	
 	ArrayList<String> nomeColunas1 = new ArrayList<String>();
 	ArrayList<String> nomeColunas2 = new ArrayList<String>();
